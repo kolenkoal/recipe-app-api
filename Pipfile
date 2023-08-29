@@ -8,6 +8,7 @@ django = "*"
 djangorestframework = "*"
 flake8 = "*"
 psycopg2-binary = "*"
+drf-spectacular = "*"
 
 [dev-packages]
 
