@@ -94,4 +94,3 @@ class PrivateTagsAPITests(TestCase):
 
         self.assertEqual(res.status_code, status.HTTP_204_NO_CONTENT)
         self.assertFalse(Tag.objects.filter(id=tag.id).exists())
-        # self.assertFalse(Tag.objects.filter(user=self.user).exists())
