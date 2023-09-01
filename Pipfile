@@ -9,6 +9,7 @@ djangorestframework = "*"
 flake8 = "*"
 psycopg2-binary = "*"
 drf-spectacular = "*"
+pillow = "==8.2.0"
 
 [dev-packages]
 
